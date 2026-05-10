@@ -9,6 +9,7 @@ echo "=========================================="
 # Clean up existing environments
 echo "🧹 Cleaning up existing environments..."
 rm -rf venv new_venv
+rm -rf venv venv
 
 # Create virtual environment with Python 3.12
 echo "📦 Creating virtual environment..."
